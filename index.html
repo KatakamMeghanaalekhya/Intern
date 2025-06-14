@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career IT Software Training</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+
+        <li class="dropdown">
+          <a href="#">Courses ▼ </a>
+          <ul class="dropdown-content">
+            <li><a href="#">Full Stack</a></li>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Internships ▼ </a>
+          <ul class="dropdown-content">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Machine Learning</a></li>
+            <li><a href="#">DevOps</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Careers</a></li>
+
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <span class="search-icon">&#128269;</span>
+      <span class="toggle-icon" onclick="toggleMenu()">&#9776;</span>
+    </div>
+  </header>
+</body>
+</html>
